@@ -86,6 +86,55 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*General Styles*/
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  font-size: 1.125em;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+p {
+  font-size: .875em;
+  line-height: 18px;
+}
+
+img {}
+
+figure {}
+
+address {
+  font-style: normal;
+}
 
 .content-wrapper {
   outline: 3px dotted red;
@@ -213,6 +262,7 @@ aside {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .reviews h3 {
@@ -254,10 +304,15 @@ aside {
 
 .faq h2 {
   margin: 40px;
+  line-height: 30px;
 }
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 24px;
 }
 
 
