@@ -342,20 +342,22 @@ input[type=button] {
   background-color: #527158;
 }
 
-.map figure {
-  width: 100%;
-  height: 0; 
-  padding-bottom: 125%; 
-  overflow: hidden;
+.embed-container {
   position: relative;
+  padding-bottom: 125%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
 }
 
-.map iframe {
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  position: absolute; 
-  top: 0; 
-  left: 0; 
 }
 
 .contact-section {
@@ -642,6 +644,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .embed-container {
+    padding-bottom: 55%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -756,6 +762,10 @@ input[type=button] {
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+  }
+
+  .embed-container {
+    padding-bottom: 47%;
   }
 
   .contact-content h4 {
