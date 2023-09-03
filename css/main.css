@@ -313,6 +313,11 @@ input[type=button] {
   margin: 0;
 }
 
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
@@ -342,7 +347,7 @@ input[type=button] {
   background-color: #527158;
 }
 
-.embed-container {
+.map-container {
   position: relative;
   padding-bottom: 125%;
   height: 0;
@@ -350,9 +355,9 @@ input[type=button] {
   max-width: 100%;
 }
 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
+.map-container iframe,
+.map-container object,
+.map-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -644,7 +649,7 @@ input[type=button] {
     width: 45%;
   }
 
-  .embed-container {
+  .map-container {
     padding-bottom: 55%;
   }
 
@@ -764,7 +769,7 @@ input[type=button] {
     font-size: 3em;
   }
 
-  .embed-container {
+  .map-container {
     padding-bottom: 47%;
   }
 
