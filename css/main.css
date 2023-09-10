@@ -97,6 +97,7 @@ body {
   font-size: 1em;
   color: #e2e3ed;
   text-align: left;
+  background-color: #202322;
 }
 
 ul,
@@ -115,6 +116,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -127,7 +129,7 @@ h4 {
 
 p {
   font-size: .875em;
-  line-height: 18px;
+  line-height: 1.285;
 }
 
 img {
@@ -177,6 +179,9 @@ header figure {
 
 header nav {
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -187,8 +192,6 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 footer {
@@ -336,7 +339,7 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
-  line-height: 30px;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -355,7 +358,7 @@ input[type=button] {
   background-color: #527158;
 }
 
-.map-container {
+.map figure {
   position: relative;
   padding-bottom: 125%;
   height: 0;
@@ -363,9 +366,7 @@ input[type=button] {
   max-width: 100%;
 }
 
-.map-container iframe,
-.map-container object,
-.map-container embed {
+.map iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -379,7 +380,7 @@ input[type=button] {
   background-color: #2a423a;
 }
 
-.contact-content {
+.contact-content p {
   margin: 0;
 }
 
@@ -402,8 +403,8 @@ input[type=button] {
 }
 
 .faq h2 {
-  margin: 40px;
-  line-height: 30px;
+  margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
@@ -411,7 +412,7 @@ input[type=button] {
 }
 
 .faq-content h4 {
-  line-height: 24px;
+  line-height: 1.333;
 }
 
 
@@ -515,14 +516,13 @@ input[type=button] {
 
   h2 {
     font-size: 2.25em;
-    line-height: 48px;
+    line-height: 1.333;
   }
 
   h3 {
     font-size: 1.5em;
-    line-height: 30px;
+    line-height: 1.25;
   }
-
 
 
   /*Header*/
@@ -582,6 +582,10 @@ input[type=button] {
     margin-bottom: 20px;
   }
 
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -593,11 +597,14 @@ input[type=button] {
     width: 62%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /*Reviews*/
   .reviews article {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   .reviews h2 {
@@ -636,7 +643,7 @@ input[type=button] {
   }
 
   footer p {
-    line-height: 18px;
+    line-height: 1.285;
   }
 
   footer .social-icons {
@@ -654,7 +661,7 @@ input[type=button] {
   .mission-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 20px;
   }
 
@@ -662,12 +669,13 @@ input[type=button] {
     width: 45%;
   }
 
-  .map-container {
+  .map figure {
     padding-bottom: 55%;
   }
 
   .contact-section .content-wrapper h2 {
     width: 80%;
+    margin: 0;
   }
 
   .contact-content {
@@ -699,7 +707,7 @@ input[type=button] {
   .faq h4,
   .faq p {
     font-size: .875em;
-    line-height: 15.75px;
+    line-height: 1.125;
   }
 }
 
@@ -712,8 +720,13 @@ input[type=button] {
     max-width: 960px;
   }
 
+  /*Header*/
+  header {
+    padding: 15px 0;
+  }
+
   h2 {
-    font-size: 2.22em;
+    font-size: 2.25em;
   }
 
   h3,
@@ -722,14 +735,10 @@ input[type=button] {
   }
 
   p {
-    font-size: 1.125;
-    line-height: 24px;
+    font-size: 1.125em;
+    line-height: 1.333;
   }
 
-  /* Header */
-  header {
-    padding: 15px 0;
-  }
 
   /* Hero */
   .hero-area h1 {
@@ -782,7 +791,7 @@ input[type=button] {
     font-size: 3em;
   }
 
-  .map-container {
+  .map figure {
     padding-bottom: 47%;
   }
 
@@ -801,7 +810,7 @@ input[type=button] {
   .faq h4,
   .faq p {
     font-size: 1.125em;
-    line-height: 18px;
+    line-height: 1;
   }
 
 }
